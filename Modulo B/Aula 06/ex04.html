@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" co ntent="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 10px;
+        font: normal 25px Arial;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <script>
+      var name = window.prompt("What is your name? ");
+
+      document.write(
+        `Hey ${name}! your name has <strong>${name.length}</strong> letters `
+      );
+      document.write(
+        `,your name in <strong>uppercase</strong> is ${name.toUpperCase()} `
+      );
+      document.write(
+        ` ,and your name in <strong>lowercase</strong> is ${name.toLowerCase()} `
+      );
+    </script>
+  </body>
+</html>
